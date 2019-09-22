@@ -10,18 +10,18 @@ const quizQuestions = [
         correctAnswer: "Anub'arak"
     },
     {
-        question: 'What is the answer to this question?',
-        choices: ["This one", "Not this one", "Not this one", "Not this one"],
-        correctAnswer: "This one"
+        question: "This massive zone is blocked by a gate in the Tanaris Zone, and wasn't accessible until the Cataclysm. What is it called?",
+        choices: ["Hyjal", "Twilight Highlands", "Silithus", "Uldum"],
+        correctAnswer: "Uldum"
     },
     {
-        question: 'What is the answer to this question?',
-        choices: ["This one", "Not this one", "Not this one", "Not this one"],
-        correctAnswer: "This one"
+        question: "The Epic Priest Staff, Benediction, can be activated to transform it into....?",
+        choices: ["Anathema", "Pestilence", "Purgatory", "Salvation"],
+        correctAnswer: "Anathema"
     },
     {
-        question: 'What is the answer to this question?',
-        choices: ["This one", "Not this one", "Not this one", "Not this one"],
+        question: "",
+        choices: ["", "", "Not this one", "Not this one"],
         correctAnswer: "This one"
     },
     {
