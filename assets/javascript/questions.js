@@ -1,37 +1,43 @@
 const quizQuestions = [
     {
-        question: '',
-        choices: [1, 2, 3, 4],
-        correctAnswer: 4
+        question: 'What is the answer to this question?',
+        choices: ["This one", "Not this one", "Not this one", "Not this one"],
+        correctAnswer: "This one"
     },
     {
-        question: '',
-        choices: [1, 2, 3, 4],
-        correctAnswer: 2
+        question: 'What is the answer to this question?',
+        choices: ["This one", "Not this one", "Not this one", "Not this one"],
+        correctAnswer: "This one"
     },
     {
-        question: '',
-        choices: [1, 2, 3, 4],
-        correctAnswer: 1
+        question: 'What is the answer to this question?',
+        choices: ["This one", "Not this one", "Not this one", "Not this one"],
+        correctAnswer: "This one"
     },
     {
-        question: '',
-        choices: [1, 2, 3, 4],
-        correctAnswer: 3
+        question: 'What is the answer to this question?',
+        choices: ["This one", "Not this one", "Not this one", "Not this one"],
+        correctAnswer: "This one"
     },
     {
-        question: '',
-        choices: [1, 2, 3, 4],
-        correctAnswer: 1
+        question: 'What is the answer to this question?',
+        choices: ["This one", "Not this one", "Not this one", "Not this one"],
+        correctAnswer: "This one"
     },
     {
-        question: '',
-        choices: [1, 2, 3, 4],
-        correctAnswer: 4
+        question: 'What is the answer to this question?',
+        choices: ["This one", "Not this one", "Not this one", "Not this one"],
+        correctAnswer: "This one"
     },
     {
-        question: '',
-        choices: [1, 2, 3, 4],
-        correctAnswer: 2
-    }
+        question: 'What is the answer to this question?',
+        choices: ["This one", "Not this one", "Not this one", "Not this one"],
+        correctAnswer: "This one"
+    },
+    {
+        question: 'What is the answer to this question?',
+        choices: ["This one", "Not this one", "Not this one", "Not this one"],
+        correctAnswer: "This one"
+    },
+
 ]
