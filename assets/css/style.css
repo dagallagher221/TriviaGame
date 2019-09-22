@@ -3,18 +3,20 @@
     padding: 10px;
     border-radius: 4px;
     cursor: pointer;
+    background-color: palegoldenrod;
+    color: slategray;
+    text-align: center;
 
 }
 
-.reset {
-    border: 1px solid green;
-}
 
 .container {
     border: 1px solid gold;
     font: 18px;
     font-family: 'Vollkorn SC', serif;
-    background-color: white;
+    background-color: silver;
+    text-align: center;
+    padding: 10px;
 }
 
 body {
@@ -23,6 +25,7 @@ body {
 }
 
 .jumbotron {
-    background-color: gold;
-    color: silver;
+    background-color: palegoldenrod;
+    color: slategray;
+    text-align: center;
 }
