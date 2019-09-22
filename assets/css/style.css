@@ -1,0 +1,28 @@
+.choice {
+    border: 1px solid lightgrey;
+    padding: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+
+}
+
+.reset {
+    border: 1px solid green;
+}
+
+.container {
+    border: 1px solid gold;
+    font: 18px;
+    font-family: 'Vollkorn SC', serif;
+    background-color: white;
+}
+
+body {
+    background-color: royalblue;
+
+}
+
+.jumbotron {
+    background-color: gold;
+    color: silver;
+}
