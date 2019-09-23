@@ -40,7 +40,7 @@ const quizQuestions = [
     {
         question: "Who is the Alliance General in the Alterac Valley Battleground?",
         choices: ["Vandar Stormpike", "Muradin Bronzebeard", "Dagran Thaurissian", "Ozzy Togglevolt"],
-        correctAnswer: "This one"
+        correctAnswer: "Vandar Stormpike"
     },
 
 ]
