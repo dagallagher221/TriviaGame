@@ -1,3 +1,6 @@
+//Second JS file to store an array of objects as questions
+
+
 const quizQuestions = [
     {
         question: "Who's statue lies before Blackrock Mountain?",
@@ -20,28 +23,29 @@ const quizQuestions = [
         correctAnswer: "Anathema"
     },
     {
-        question: "",
-        choices: ["", "", "Not this one", "Not this one"],
-        correctAnswer: "This one"
+        question: "Which neutral Goblin city is located in the Winterspring zone?",
+        choices: ["Gadgetzan", "Ratchet", "Everlook", "Booty Bay"],
+        correctAnswer: "Everlook"
     },
     {
-        question: 'What is the answer to this question?',
-        choices: ["This one", "Not this one", "Not this one", "Not this one"],
-        correctAnswer: "This one"
+        question: "What is the name of the bridge that connects The Wetlands to The Arathi Highlands?",
+        choices: ["Great Menethil Bridge", "Khaz Modan Crossing", "Stromgarde Bridge", "Thandol Span"],
+        correctAnswer: "Thandol Span"
     },
     {
-        question: 'What is the answer to this question?',
-        choices: ["This one", "Not this one", "Not this one", "Not this one"],
-        correctAnswer: "This one"
+        question: "A famous quest in The Barrens, whose wife do you help search for?",
+        choices: ["Grommash", "Mankrik", "Mandarke", "Mikhail"],
+        correctAnswer: "Mankrik"
     },
     {
-        question: 'What is the answer to this question?',
-        choices: ["This one", "Not this one", "Not this one", "Not this one"],
+        question: "Who is the Alliance General in the Alterac Valley Battleground?",
+        choices: ["Vandar Stormpike", "Muradin Bronzebeard", "Dagran Thaurissian", "Ozzy Togglevolt"],
         correctAnswer: "This one"
     },
 
 ]
 
+//Array to hold images for correct answers
 const funImages = [
     './assets/images/happy fun.gif',
     './assets/images/hellYeah.gif',
@@ -50,6 +54,7 @@ const funImages = [
     './assets/images/you did it.gif'
 ];
 
+//Array to hold images for incorrect answers
 const sadImages = [
     './assets/images/danm.gif',
     './assets/images/oops.gif',

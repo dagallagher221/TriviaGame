@@ -30,6 +30,7 @@ function timeUp() {
     setTimeout(nextQuestion, 3 * 1000);
 }
 
+//Function to countdown the timer to sync up with the actual timeout
 function countDown() {
     counter--;
     $('#time').html('Timer : ' + counter);
@@ -57,6 +58,7 @@ function loadQuestion() {
 
 }
 
+//Populate the choices from the question object into the page
 function loadChoices(choices) {
     let result = '';
 
@@ -66,6 +68,7 @@ function loadChoices(choices) {
     return result;
 }
 
+//Process the user click on answer and determine whether it was correct or incorrect
 $(document).on('click', '.choice', function () {
     clearInterval(timer);
     const selectedAnswer = $(this).attr('data-answer');
@@ -84,17 +87,19 @@ $(document).on('click', '.choice', function () {
     }
 })
 
+//Display the result of the quiz with a final score
 function displayResult() {
     const result = `
     <p>You get ${score} question(s) right!</p>
     <p>You missed ${loss} question(s)</p>
-    <p>Total Quesions ${quizQuestions.length} question(s) right</p>
+    <p>Total Questions: ${quizQuestions.length}</p>
     <button class="btn btn-primary" id="reset">Reset Game</button>
     `;
 
     $("#game").html(result);
 }
 
+//On press of the reset button, relaunch the game and reset the values of the variables
 $(document).on('click', '#reset', function () {
     counter = 30;
     currentQuestion = 0;
@@ -105,6 +110,8 @@ $(document).on('click', '#reset', function () {
     loadQuestion();
 })
 
+
+//Function to load the next question in sequence
 function loadRemainingQuestion() {
     const remainingQuestion = quizQuestions.length - (currentQuestion + 1);
     const totalQuestion = quizQuestions.length;
@@ -113,12 +120,16 @@ function loadRemainingQuestion() {
 
 };
 
+
+//Function to select a random image from the images directory depending on win or loss
 function randomImage(images) {
     const random = Math.floor(Math.random() * images.length);
     const randomImage = images[random];
     return randomImage;
 }
 
+
+//Preload an image based on correct or incorrect user choice
 function preloadImage(status) {
     const correctAnswer = quizQuestions[currentQuestion].correctAnswer;
 
@@ -139,7 +150,7 @@ function preloadImage(status) {
 
 }
 
-
+//Begin the game on first click of Start Game button
 $("#start").click(function () {
     $("#start").remove();
     $("#time").html(counter);
